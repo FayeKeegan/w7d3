@@ -7,8 +7,8 @@ JournalApp.Views.PostShow = Backbone.View.extend({
 
   events: {
     "click .delete-post-show" : "deletePost",
-    "dblclick .editable#post-body": "editBody",
-    "dblclick .editable#post-title": "editTitle",
+    "dblclick #post-body": "editBody",
+    "dblclick #post-title": "editTitle",
     "blur .edited-body": "updateBody",
     "blur .edited-title": "updateTitle"
   },

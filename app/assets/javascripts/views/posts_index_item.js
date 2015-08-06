@@ -3,6 +3,8 @@ JournalApp.Views.PostsIndexItem = Backbone.View.extend({
 
   tagName: "li",
 
+  className: "list-group-item",
+
   events: {
     "click .delete-post": "deletePost",
     "click a.post-show": "showPost"

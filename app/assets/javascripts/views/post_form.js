@@ -4,7 +4,7 @@ JournalApp.Views.PostForm = Backbone.View.extend({
   tagName: 'form',
 
   events: {
-    "click .submit-post": "submitPost"
+    "click .create-post": "submitPost"
   },
 
   initialize: function(){
