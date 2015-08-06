@@ -1,0 +1,9 @@
+<h1 class="editable" id="post-title"><%= post.escape("title") %></h1>
+<br>
+<p class="editable" id="post-body"><%= post.escape("body") %></p>
+<br>
+<a href="#/posts/<%=post.id%>/edit" >Edit Post</a>
+<br>
+<a href="#/">Back to Index!</a>
+<br>
+<button type="submit" class="delete-post-show">Delete</button>
